@@ -7,7 +7,7 @@ namespace GrassHopperSummation
         static void Main(string[] args)
         {
             Sumation(22);
-            
+            Summation2(22);
         }
 
         public static int Sumation(int num) 
@@ -23,6 +23,12 @@ namespace GrassHopperSummation
             }
 
             return var;
+        }
+
+        public static int Summation2(int num) 
+        {
+            Console.WriteLine(num * (num + 1) / 2);
+            return num * (num + 1) / 2;   
         }
 
     }
